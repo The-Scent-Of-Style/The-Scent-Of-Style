@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+.site-header {
+  text-align: center;
+  padding: 20px;
+}
+.site-header .logo {
+  max-width: 120px;
+  display: block;
+  margin: 0 auto 10px;
+}
+.site-header h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.hero {
+  background: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+.hero .tagline {
+  font-size: 1.5rem;
+  color: #333;
+}
+.catalog {
+  padding: 40px 20px;
+}
+.catalog h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.product {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+.product img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.product h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+}
+.product .price {
+  color: #555;
+  font-weight: bold;
+}
+.product .description {
+  font-size: 0.9rem;
+  color: #666;
+}
+.testimonials {
+  background: #eee;
+  padding: 40px 20px;
+}
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.testimonial {
+  max-width: 600px;
+  margin: 10px auto;
+  font-style: italic;
+}
+.testimonial span {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.contact {
+  text-align: center;
+  padding: 20px;
+}
+.btn-whatsapp {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
